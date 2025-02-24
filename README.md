@@ -13,7 +13,7 @@ Undersøg eksisterende pentesting-værktøjer som Bettercap, hcxdumptool, bluesn
 Definér scope: Skal du teste BLE (Bluetooth Low Energy) eller klassisk Bluetooth? Skal det være en passiv eller aktiv test?
 
 🔹 2. Udvælgelse af Værktøjer & Opsætning
-Vælg et programmeringssprog til at bygge din test suite (Python).
+Vælg et programmeringssprog til at bygge min test suite (Python).
 Opsæt et miljø til pentesting, f.eks. en Raspberry Pi eller en Kali Linux VM.333
 Sørg for en Bluetooth-dongle, der understøtter sniffing og aktiv scanning (f.eks. Ubertooth One eller en CSR 4.0 USB dongle).
 
@@ -34,6 +34,6 @@ Lav en log-fil eller en web-GUI, der viser sårbare enheder og testresultater.
 Generér en rapport med fundne sårbarheder, eventuelle CVE’er og anbefalinger til forbedring.
 
 🔹 6. Publicering på GitHub Pages
-Dokumentér hele processen på din GitHub Page.
+Dokumentér hele processen på min GitHub Page.
 Upload kode og test-eksempler.
 Inkludér en guide til at bruge test suiten.
