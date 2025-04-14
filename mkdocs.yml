@@ -1,0 +1,6 @@
+site_name: E25-Projekt
+nav:
+  - Forside: index.md
+  - Målsætning: maalsaetning.md
+theme:
+  name: material
