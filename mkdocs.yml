@@ -47,9 +47,3 @@ plugins:
 markdown_extensions:
   - codehilite  # Enables code highlighting for code blocks
   - toc  # Enables table of contents generation (automatically done by the theme too)
-
-# Optional: If you want to add extra options or meta information
-extra:
-  social:
-    - type: github
-      link: https://github.com/Efily
