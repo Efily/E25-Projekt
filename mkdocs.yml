@@ -1,43 +1,26 @@
-
-nav:
-  - Forside: index.md
-  - Målsætning: maalsaetning.md
-theme:
-  name: material
-
-
 site_name: E25-Projekt
-theme:
-  name: material  
-  logo: images/logo.png  
-  nav:
-    - Home: index.md
-    - Målsætning: maalsaetning.md
-  # Enabling top navigation
-  features:
-    - navigation.tabs
-
-nav:
-  - Home: index.md
-  - Subjects:
-      - Introduction: subjects/intro.md
-      - Topic 1: subjects/topic1.md
-      - Topic 2: subjects/topic2.md
-
-
-site_name: E25-Projekt
+logo: images/logo.png  # Optional, path to your logo
 
 theme:
-  name: material  # Using the Material theme, which supports both top navigation and sidebar TOC
-  logo: images/logo.png  # Optional, path to your logo
+  name: material  # Using the Material theme
   features:
     - navigation.tabs  # Enables top bar navigation with tabs (subpages)
     - toc.inline  # Enables inline table of contents in the sidebar for page navigation
 
+  # Move the TOC to the left sidebar
+  toc:
+    position: left  # Move the TOC to the left side (instead of the right)
+
 # Define the navigation structure for top bar and subpages
 nav:
-  - Home: index.md  # Home page (index.md)
-  - Målsætning: maalsaetning.md
+  - Forside: index.md  # Home page (index.md) — appears in the top bar, not the sidebar
+  - Målsætning: maalsaetning.md  # "Målsætning" page (appears in the top bar)
+
+  # Subpages section for "Subjects"
+  - Subjects:
+      - Introduction: subjects/intro.md
+      - Topic 1: subjects/topic1.md
+      - Topic 2: subjects/topic2.md
 
 # Optional: Configuration for plugins, like search, markdown extensions, etc.
 plugins:
