@@ -1,5 +1,3 @@
-##Målsætning
-
 ##Delmål: 
 ##🔹 1. Research & Planlægning
 Forstå Bluetooth-sikkerhed og eksisterende sårbarheder (f.eks. BlueBorne, KNOB attack, BLE MITM-angreb). Undersøg eksisterende pentesting-værktøjer som Bettercap, hcxdumptool, bluesniff, gattacker osv. Definér scope: Skal du teste BLE (Bluetooth Low Energy) eller klassisk Bluetooth? Skal det være en passiv eller aktiv test? 
