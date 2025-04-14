@@ -13,7 +13,29 @@ Den studerende opsætter selv læringsmål (skabelon herunder) ud fra det valgte
 
 Det er ikke alle læringsmål der skal opfyldes, vælg dem der passer til det valgte fordybelsesområde.
 
-Læringsmål skal ordnes efter viden, færdigheder og kompetencer
+Læringsmål skal ordnes efter viden, færdigheder og kompetencer  
+
+**Viden**
+
+Den studerende har viden om...
+
+Pentesting værktøjer
+Gængse metoder og fremgangsmåder hvorved pentesting udføres
+
+**Færdigheder**
+
+Den studerende kan...
+
+Udføre pentesting angreb
+Vurdere effektiviteten af pentesting angreb, baseret på tid, ressourcer og resultater
+Skrive en rapport baseret på resultaterne af en pentest
+
+**Kompetencer**
+
+Den studerende kan...
+
+håndtere udarbejdelsen og dokumentation af en pentest proces
+sammenkoble værktøjer til at opnå resultater
 
 ##Delmål
 
