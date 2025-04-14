@@ -1,4 +1,22 @@
-##Delmål: 
+##Indhold  
+I mit projekt vil jeg gerne kigge på bluetooth pentesting og pipelines og hvilke værktøjer gøres der brug af. Mit mål vil være opdelt i tre dele:
+
+Opnå en større faglighed i brugen af pentesting værktøjer til bluetooth  
+Opnå en større faglighed i brugen af CI/CD Pipeline  
+Finde frem til, hvilken værdi pentesting har i it-sikkerheds verdenen i dag, specielt inden for Bluetooth  
+
+For at åbnå disse mål har jeg sat op nogen læringsmål til at opnå dette samt nogen delmål som er en god måde at gå fremad  
+
+##Læringsmål
+
+Den studerende opsætter selv læringsmål (skabelon herunder) ud fra det valgte emne og indenfor rammerne i uddannelsens mål for læringsudbytte fra den nationale studieordning kapitel 1, se: https://esdhweb.ucl.dk/D22-1980440.pdf
+
+Det er ikke alle læringsmål der skal opfyldes, vælg dem der passer til det valgte fordybelsesområde.
+
+Læringsmål skal ordnes efter viden, færdigheder og kompetencer
+
+##Delmål
+
 🔹 1. Research & Planlægning  
 Forstå Bluetooth-sikkerhed og eksisterende sårbarheder (f.eks. BlueBorne, KNOB attack, BLE MITM-angreb). Undersøg eksisterende pentesting-værktøjer som Bettercap, hcxdumptool, bluesniff, gattacker osv. Definér scope: Skal du teste BLE (Bluetooth Low Energy) eller klassisk Bluetooth? Skal det være en passiv eller aktiv test?  
 
