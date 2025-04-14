@@ -1,6 +1,55 @@
-site_name: E25-Projekt
+
 nav:
   - Forside: index.md
   - Målsætning: maalsaetning.md
 theme:
   name: material
+
+
+site_name: E25-Projekt
+theme:
+  name: material  
+  logo: images/logo.png  
+  nav:
+    - Home: index.md
+    - Målsætning: maalsaetning.md
+  # Enabling top navigation
+  features:
+    - navigation.tabs
+
+nav:
+  - Home: index.md
+  - Subjects:
+      - Introduction: subjects/intro.md
+      - Topic 1: subjects/topic1.md
+      - Topic 2: subjects/topic2.md
+
+
+site_name: E25-Projekt
+
+theme:
+  name: material  # Using the Material theme, which supports both top navigation and sidebar TOC
+  logo: images/logo.png  # Optional, path to your logo
+  features:
+    - navigation.tabs  # Enables top bar navigation with tabs (subpages)
+    - toc.inline  # Enables inline table of contents in the sidebar for page navigation
+
+# Define the navigation structure for top bar and subpages
+nav:
+  - Home: index.md  # Home page (index.md)
+  - Målsætning: maalsaetning.md
+
+# Optional: Configuration for plugins, like search, markdown extensions, etc.
+plugins:
+  - search  # Enables search functionality for your site
+
+# Optional: Customizing markdown extensions for syntax highlighting, footnotes, etc.
+markdown_extensions:
+  - codehilite  # Enables code highlighting for code blocks
+  - toc  # Enables table of contents generation (automatically done by the theme too)
+
+# Optional: If you want to add extra options or meta information
+extra:
+  social:
+    - type: github
+      link: https://github.com/Efily
