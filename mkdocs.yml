@@ -16,12 +16,6 @@ nav:
   - Forside: index.md  # Home page (index.md) — appears in the top bar, not the sidebar
   - Målsætning: maalsaetning.md  # "Målsætning" page (appears in the top bar)
 
-  # Subpages section for "Subjects"
-  - Subjects:
-      - Introduction: subjects/intro.md
-      - Topic 1: subjects/topic1.md
-      - Topic 2: subjects/topic2.md
-
 # Optional: Configuration for plugins, like search, markdown extensions, etc.
 plugins:
   - search  # Enables search functionality for your site
