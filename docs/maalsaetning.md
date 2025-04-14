@@ -1,7 +1,7 @@
 ##Delmål: 
-##🔹 1. Research & Planlægning
+🔹 1. Research & Planlægning
 Forstå Bluetooth-sikkerhed og eksisterende sårbarheder (f.eks. BlueBorne, KNOB attack, BLE MITM-angreb). Undersøg eksisterende pentesting-værktøjer som Bettercap, hcxdumptool, bluesniff, gattacker osv. Definér scope: Skal du teste BLE (Bluetooth Low Energy) eller klassisk Bluetooth? Skal det være en passiv eller aktiv test? 
-##🔹 2. Udvælgelse af Værktøjer Opsætning 
+###🔹 2. Udvælgelse af Værktøjer Opsætning 
 Vælg et programmeringssprog til at bygge min test suite (Python). Opsæt et miljø til pentesting, f.eks. en Raspberry Pi eller en Kali Linux VM.333 Sørg for en Bluetooth-dongle, der understøtter sniffing og aktiv scanning (f.eks. Ubertooth One eller en CSR 4.0 USB dongle). 
 ##🔹 3. Grundlæggende Bluetooth Analyse:
 Scan efter enheder i nærheden og log MAC-adresser og enhedstyper. Prøv at hente enhedens navn, service UUIDs og andre detaljer via hcitool eller btmon. Test for ukrypterede dataoverførsler ved at sniffe Bluetooth-trafik. 
