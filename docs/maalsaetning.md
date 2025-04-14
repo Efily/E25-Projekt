@@ -19,14 +19,16 @@ Læringsmål skal ordnes efter viden, færdigheder og kompetencer
 
 Den studerende har viden om...
 
-Pentesting værktøjer
+Pentesting værktøjer til bluetooth
 Gængse metoder og fremgangsmåder hvorved pentesting udføres
+Gængse metoder og fremgangsmåder hvorved CI/CD Pipeline udføres
 
 **Færdigheder**
 
 Den studerende kan...
 
 Udføre pentesting angreb
+Udføre pentesting med brug af en Pipeline (CI/CD)
 Vurdere effektiviteten af pentesting angreb, baseret på tid, ressourcer og resultater
 Skrive en rapport baseret på resultaterne af en pentest
 
