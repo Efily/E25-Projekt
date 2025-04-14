@@ -5,13 +5,9 @@ theme:
   name: material  # Using the Material theme
   features:
     - navigation.tabs  # Enables top bar navigation with tabs (subpages)
-    - toc.inline  # Enables inline table of contents in the sidebar for page navigation
+    - toc.inline  # Ensures the TOC is in the sidebar for page navigation
 
-  # TOC settings to ensure it's on the left
-  toc:
-    position: left  # Ensures the TOC is on the left side of the page
-
-# Define the navigation structure for top bar and subpages (only top-level pages in the sidebar)
+# Define the navigation structure for top bar and subpages
 nav:
   - Forside: index.md  # This appears in the top bar navigation, not in the sidebar
   - Målsætning: maalsaetning.md  # This appears in the top bar navigation, not in the sidebar
