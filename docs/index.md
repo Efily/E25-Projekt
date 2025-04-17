@@ -5,7 +5,7 @@
 ##Velkommen til min hjemmeside
 Formålet med denne side er at dokumentere min proces og læring inden for penetration testing.
 Projektet er en del af mit valgfag på it-sikkerhedsuddannelsen, hvor jeg har valgt at fokusere på pentesting som mit hovedemne.
-Min fremgangsmåde Min fremgangsmåde var at læse op på alle de forskellige ting samt se videoer på det, derefter udføre det der var nødvending og så lave produktet som jeg ville lave på at sætte op kali linux på en raspberri pi og derefter udføre en proof of concept og så putte det i en pipeline for at finde ud af hvordan man laver en CI/CD til formål af penttesting, denne opgave kan derved også blive bygget på i fremtiden hvis jeg før lyst uden for eksammensprojektet.
+Min fremgangsmåde Min fremgangsmåde var at læse op på alle de forskellige ting samt se videoer på det, derefter udføre det der var nødvending og så lave produktet som jeg ville lave på at sætte op kali linux på en raspberri pi og derefter udføre en proof of concept og så putte det i en pipeline for at finde ud af hvordan man laver en CI/CD til formål af penttesting, denne opgave kan derved også blive bygget på i fremtiden hvis jeg før lyst uden for eksammensprojektet.  
 Indholdet på siden vil derfor både bestå af refleksioner og dokumentation af mine mål og milepæle, som primært vil give mening for mig selv og personer tilknyttet min uddannelse.
 Derudover vil nogle af indlæggene kunne være relevante for andre, der selv er i gang med at lære om pentesting. Her vil man kunne finde vejledninger og gennemgange af forskellige værktøjer, samt løsninger på de opgaver, jeg har arbejdet med – forhåbentlig til inspiration og hjælp for andre i samme situation.
 
