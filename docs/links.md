@@ -28,3 +28,7 @@
       * God til at lære om raspberri pi og hvordan man sætter den op  
 [NetworkChuck - Linux](https://www.youtube.com/playlist?list=PLIhvC56v63IL2OjFvv_PI0B2yAXGfJLMI)  
       * Større linux serie som er meget i dybte gående derudover har den også god forklaring omkring kali som jeg bruger og WSL som vi har brugt i skolen
+
+##Andet  
+[CVE](https://cve.mitre.org/index.html)  
+[NIST](https://www.nist.gov)
