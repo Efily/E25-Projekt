@@ -12,3 +12,7 @@
 [Jenkins](https://www.jenkins.io)  
 [Jenkins Download](https://www.jenkins.io/download/)  
 [Jenkins Dokumentation](https://www.jenkins.io/doc/)  
+
+##Linux  
+[Linux](https://www.linux.org)  
+[Linux Tutorials](https://www.linux.org/forums/#linux-tutorials.122)  
