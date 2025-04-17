@@ -16,3 +16,15 @@
 ##Linux  
 [Linux](https://www.linux.org)  
 [Linux Tutorials](https://www.linux.org/forums/#linux-tutorials.122)  
+
+##Videoer  
+[NetworkChuck - Bash Script](https://www.youtube.com/playlist?list=PLIhvC56v63IKioClkSNDjW7iz-6TFvLwS)  
+      * God til at lære bash scripting hvis man ikke føler sig så stærk i det  
+[NetworkChuck - Python](https://www.youtube.com/playlist?list=PLIhvC56v63ILPDA2DQBv0IKzqsWTZxCkp)  
+      * Har ikke brugt men hvis man ikke føler sig god til Python er det, det værd at se  
+[NetworkChuck - Linux for hackers](https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL)  
+      * God læring til Linux og ikke kun til hacking men generel brug også  
+[NetworkChuck - Raspberri Pi](https://www.youtube.com/playlist?list=PLIhvC56v63IJzZZpe4SLlzWIWRnxUU5lD)  
+      * God til at lære om raspberri pi og hvordan man sætter den op  
+[NetworkChuck - Linux](https://www.youtube.com/playlist?list=PLIhvC56v63IL2OjFvv_PI0B2yAXGfJLMI)  
+      * Større linux serie som er meget i dybte gående derudover har den også god forklaring omkring kali som jeg bruger og WSL som vi har brugt i skolen
