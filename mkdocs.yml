@@ -12,6 +12,7 @@ nav:
   - Forside: index.md  
   - Målsætning: maalsaetning.md  
   - Links: links.md
+  - Projekt: pipeline.md
   - Værktøjer: tools.md
 
 # Optional: Configuration for plugins, like search, markdown extensions, etc.
