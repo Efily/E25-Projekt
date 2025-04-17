@@ -12,7 +12,7 @@ nav:
   - Forside: index.md  
   - Målsætning: maalsaetning.md  
   - Links: links.md
-  - Værtøjer: tools.md
+  - Værktøjer: tools.md
 
 # Optional: Configuration for plugins, like search, markdown extensions, etc.
 plugins:
