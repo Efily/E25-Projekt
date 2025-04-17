@@ -9,4 +9,6 @@
 [Bettercap Installation](https://www.bettercap.org/installation/)
 
 ##Jenkins  
-
+[Jenkins](https://www.jenkins.io)
+[Jenkins Download](https://www.jenkins.io/download/)
+[Jenkins Dokumentation](https://www.jenkins.io/doc/)
