@@ -1,1 +1,1 @@
-[Bettercap Python code 1/2](images/Bettercap1.png)  
+![Bettercap Python code 1/2](images/Bettercap1.png)  
