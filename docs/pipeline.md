@@ -40,8 +40,8 @@ Derefter vil den give os et input requirement i vores pipeline script til at sp�
 ![Bettercap Python code 2/2](images/Bettercap2.png)  
 [Github Repo link til koden](https://github.com/Efily/E25-Projekt/blob/main/code/bettercap.py)  
 🔹pexpect bruges til at starte og styre eksterne programmer (som fx bettercap) automatisk som om du selv skrev i terminalen.  
-🔹re er til regulære udtryk, så vi kan søge efter bestemte tekstmønstre, f.eks. MAC-adresser og signalstyrker.
-🔹time bruges bare til at lave pauser (sleep), så vi giver tid til, at programmer når at levere output.
+🔹re er til regulære udtryk, så vi kan søge efter bestemte tekstmønstre, f.eks. MAC-adresser og signalstyrker.  
+🔹time bruges bare til at lave pauser (sleep), så vi giver tid til, at programmer når at levere output.  
 
 Funktion: parse_bettercap_output(output)  
 🔹Denne funktion tager tekst-output fra bettercap og forsøger at finde MAC-adresser og deres dBm (signalstyrke).  
@@ -53,28 +53,28 @@ Derefter defineres en regex der leder efter:
 For hvert match:  
 🔹MAC-adressen og dBm signalstyrken hives ud.  
 🔹dBm-værdien konverteres fra tekst til et heltal (fordi vi vil kunne sammenligne dem numerisk).  
-🔹Alle fundne enheder gemmes i en liste som (mac, dBm).  w
+🔹Alle fundne enheder gemmes i en liste som (mac, dBm).  
 Til sidst vælges den MAC med stærkest signal (tættest på 0), dvs. højeste dBm-værdi. 
 
-Funktion: read_all_output(child)
-🔹Denne funktion forsøger at læse alt output fra bettercap processen.
-🔹Den bliver ved at læse små bidder indtil der ikke kommer mere output.
-🔹Hvis der sker timeout eller processens output lukker (EOF), så stopper den og returnerer det samlede output.
+Funktion: read_all_output(child)  
+🔹Denne funktion forsøger at læse alt output fra bettercap processen.  
+🔹Den bliver ved at læse små bidder indtil der ikke kommer mere output.  
+🔹Hvis der sker timeout eller processens output lukker (EOF), så stopper den og returnerer det samlede output.  
 
-Funktion: start_bettercap()
-🔹Starter en ny bettercap-proces som root (sudo bettercap) med pexpect.
-🔹Venter 3 sekunder på at programmet starter op.
-🔹Sender kommandoen ble.recon on, hvilket starter scanning af Bluetooth Low Energy (BLE) enheder.
-🔹Venter 20 sekunder for at samle data.
-🔹Bruger read_all_output til at hive alt output fra processen.
-Hvis der blev fundet noget:
-🔹Parser outputtet med parse_bettercap_output.
-🔹Hvis der blev fundet en stærk MAC-adresse:
-🔹Kører en ble.enum {MAC} kommando for at hente flere detaljer om den specifikke enhed.
-🔹Venter igen 20 sekunder og læser alt nyt output.
-Hvis der trykkes Ctrl+C (KeyboardInterrupt), så sender den exit til bettercap og lukker processen pænt.
-🔹Ved fejl fanges det og printes.
-🔹Når scriptet er færdigt, fortæller det om der blev fundet en MAC-adresse eller ej.
+Funktion: start_bettercap()  
+🔹Starter en ny bettercap-proces som root (sudo bettercap) med pexpect.  
+🔹Venter 3 sekunder på at programmet starter op.  
+🔹Sender kommandoen ble.recon on, hvilket starter scanning af Bluetooth Low Energy (BLE) enheder.  
+🔹Venter 20 sekunder for at samle data.  
+🔹Bruger read_all_output til at hive alt output fra processen.  
+Hvis der blev fundet noget:  
+🔹Parser outputtet med parse_bettercap_output.  
+🔹Hvis der blev fundet en stærk MAC-adresse:  
+🔹Kører en ble.enum {MAC} kommando for at hente flere detaljer om den specifikke enhed.  
+🔹Venter igen 20 sekunder og læser alt nyt output.  
+Hvis der trykkes Ctrl+C (KeyboardInterrupt), så sender den exit til bettercap og lukker processen pænt.  
+🔹Ved fejl fanges det og printes.  
+🔹Når scriptet er færdigt, fortæller det om der blev fundet en MAC-adresse eller ej.  
 
 ##Jenkins Groovy Kode  
 ![Jenkins Groovy code 1/2](images/Jenkins1.png)  
