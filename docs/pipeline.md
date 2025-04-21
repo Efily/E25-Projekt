@@ -38,6 +38,7 @@ Derefter vil den give os et input requirement i vores pipeline script til at sp�
 ##Bettercap Python Kode  
 ![Bettercap Python code 1/2](images/Bettercap1.png)  
 ![Bettercap Python code 2/2](images/Bettercap2.png)  
+[Github Repo link til koden](https://github.com/Efily/E25-Projekt/blob/main/code/bettercap.py)  
 🔹pexpect bruges til at starte og styre eksterne programmer (som fx bettercap) automatisk som om du selv skrev i terminalen.  
 🔹re er til regulære udtryk, så vi kan søge efter bestemte tekstmønstre, f.eks. MAC-adresser og signalstyrker.
 🔹time bruges bare til at lave pauser (sleep), så vi giver tid til, at programmer når at levere output.
@@ -78,6 +79,7 @@ Hvis der trykkes Ctrl+C (KeyboardInterrupt), så sender den exit til bettercap o
 ##Jenkins Groovy Kode  
 ![Jenkins Groovy code 1/2](images/Jenkins1.png)  
 ![Jenkins Groovy code 2/2](images/Jenkins2.png)  
+[Github Repo link til koden](https://github.com/Efily/E25-Projekt/blob/main/code/jenkins.groovy)  
 pipeline beskriver hele Jenkins job'et.  
 🔹agent any betyder, at den kan køre på hvilken som helst tilgængelig agent (node).  
 🔹stages indeholder trinnene for hvad der skal ske.  
