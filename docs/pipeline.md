@@ -17,6 +17,23 @@ apps til at lave phishing attacks eller andet. Derudover med mac addresserne hvi
 Efter at en et python script der virker sætter vi op en jenkins pipeline og configurer det med et CI/CD script som bruger stages til at gøre ting i forskellige rækkefølger.  
 I mit projekt har jeg sat op 2 stages for at fremvise hvordan det fungerer hvor at vi har et stage som kører koden og bruger den information som scriptet giver, og selv inde i dette script kan vi køre kode som gør at stagen kan køre igen og igen indtil vi får hvad vi leder efter og gemmer den information som vi vil bruge hvis vi havde flere scripts til exploits vi kunne bruge den device vi har fundet til at teste for en masse kendte exploits. Og i anden stage confirmer vi at den device vi har sagt er god til at teste for exploits er gemt til fremtidig brug, dette ville betyde mere i en test suite environment for et firma som gerne ville pent teste deres devices eller hobby cybersikkerhed arbejdere som er intereseret i at teste deres egne devices. (Bettercap can bruge både bluetooth og wifi og mere).
 
+##Pipeline Recon
+![Pipeline Recon](images/PipelineRecon.png)  
+Efter at sætte op vores jenkins script kører vi builded hvor den vil først kigge om vi har en eksisterende mac addresse vi vil bruge for at skippe denne stage, men da vi ikke har vil den starte python scriptet med at søge efter devices som set på billedet over.
+
+##Pipeline Mac Found
+![Mac Found](images/PipelineMacFound.png)  
+I billedet over opfanger den så de mac addresser som vi leder efter og den fanger derved alle og derefter vælger den med den stærkeste styrke.
+
+##Pipeline Enum
+![PipelineEnum](images/PipelineEnum.png)  
+![Pipeline Enum Succ](images/PipelineEnumSucc.png)  
+Derefter at enumarate og vi får success ser vi det samme som i python scriptet som er en god til at vi kan se at scriptet fungere i vores ci/cd pipeline
+
+##Pipeline Sucess
+![Pipeline Success](images/PipelineSuccess.png)  
+Derefter vil den give os et input requirement i vores pipeline script til at spørge om vi er sikker på at vi vil bruge denne device, hvis ja vil den blive gemt hvis ikke vil den prøve at kører scriptet igen for at fange en anden device ellers kan vi også bare abandon builded, i dette tilfælde siger vi ja hvor den så slutter det første stage og starter den anden stage som bare printer ud den mac addresse som vi har sagt er vores som beviser at vi har gemt og kan bruge den til flere exploitive scripts og forsøg helle i en CI/CD pipeline environment for pent testing.
+
 
 ##Bettercap Python Kode  
 ![Bettercap Python code 1/2](images/Bettercap1.png)  
