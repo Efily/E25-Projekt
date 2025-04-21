@@ -17,7 +17,11 @@ Her kan man læse om de læringsmål, jeg selv har sat, samt se en plan med dead
 
 ##Links
 
-Her findes en oversigt over de links, jeg har samlet undervejs i projektet.
+Her findes en oversigt over de links, jeg har samlet undervejs i projektet.  
+
+##Projekt  
+
+Her findes mit projekt og hvordan jeg løste det, samt min kode, du kan også finde koden i Links til min github repo.
 
 ##Værktøjer
 
