@@ -46,5 +46,6 @@ Efter at have logget ind vælger man hvilke plugins den skal downloade og valgte
 Derefter er vi på Dashboarded hvor vi kan så lave en ny item
 
 ![Pipeline Setup](images/PipelineSetup.png)  
-Derefter vælger vi en pipeline og sætter den op og configurere med den kode vi vil lave bagefter som set i Projektet
+Derefter vælger vi en pipeline og sætter den op og configurere med den kode vi vil lave bagefter som set i Projektet.  
+Jenkins Pipeline bruger et andet kodningsprog og har under projektet skulle lære om Groovy Syntax som er det sprog som de bruger som er baseret på sproget Java. Scripts som der bliver kørt gennem jenkins scriptet (groovy scriptet) er python scriptet og var derfor ikke så svært i forhold til alt den tid jeg skulle bruge til at lære et nyt sprog.
 
