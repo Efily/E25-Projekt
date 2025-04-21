@@ -31,7 +31,7 @@ I billedet over opfanger den så de mac addresser som vi leder efter og den fang
 Derefter at enumarate og vi får success ser vi det samme som i python scriptet som er en god til at vi kan se at scriptet fungere i vores ci/cd pipeline
 
 ##Pipeline Sucess
-![Pipeline Success](images/PipelineSuccess.png)  
+![Pipeline Success](images/PipelineSucess.png)  
 Derefter vil den give os et input requirement i vores pipeline script til at spørge om vi er sikker på at vi vil bruge denne device, hvis ja vil den blive gemt hvis ikke vil den prøve at kører scriptet igen for at fange en anden device ellers kan vi også bare abandon builded, i dette tilfælde siger vi ja hvor den så slutter det første stage og starter den anden stage som bare printer ud den mac addresse som vi har sagt er vores som beviser at vi har gemt og kan bruge den til flere exploitive scripts og forsøg helle i en CI/CD pipeline environment for pent testing.
 
 
