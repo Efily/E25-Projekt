@@ -45,6 +45,6 @@ Efter at have logget ind vælger man hvilke plugins den skal downloade og valgte
 ![Dashboard](images/JenkinsDashboard.png)  
 Derefter er vi på Dashboarded hvor vi kan så lave en ny item
 
-![Pipeline Setup](PipelineSetup.png)  
+![Pipeline Setup](images/PipelineSetup.png)  
 Derefter vælger vi en pipeline og sætter den op og configurere med den kode vi vil lave bagefter som set i Projektet
 
