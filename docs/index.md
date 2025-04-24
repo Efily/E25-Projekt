@@ -13,7 +13,7 @@ Herunder finder du et kort overblik over, hvad de enkelte faner på siden indeho
 
 ##Målsætning
 
-Her kan man læse om de læringsmål, jeg selv har sat, samt se en plan med deadlines for specifikke mål og milepæle – alt sammen for at sikre, at projektet forløb i den retning, jeg havde forestillet mig.
+Her kan man læse om de læringsmål, jeg selv har sat, samt se en plan for specifikke mål og milepæle i form af delmål – alt sammen for at sikre, at projektet forløb i den retning, jeg havde forestillet mig.
 
 ##Links
 
