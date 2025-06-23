@@ -1,0 +1,841 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../links/">
+      
+      
+        <link rel="next" href="../tools/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Projekt - E25-Projekt</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cicd-bluetooth-recon-penetration-projekt" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="E25-Projekt" class="md-header__button md-logo" aria-label="E25-Projekt" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            E25-Projekt
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Projekt
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Forside
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../maalsaetning/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Målsætning
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../links/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Links
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Projekt
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../tools/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Værktøjer
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="E25-Projekt" class="md-nav__button md-logo" aria-label="E25-Projekt" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    E25-Projekt
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forside
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maalsaetning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Målsætning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Links
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Projekt
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projekt
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-bluetooth-recon-penetration-projekt" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD Bluetooth Recon Penetration Projekt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-python-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminal Python Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#config-jenkins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Config Jenkins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-recon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Recon
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-mac-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Mac Found
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-enum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Enum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-sucess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Sucess
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bettercap-python-kode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bettercap Python Kode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jenkins-groovy-kode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jenkins Groovy Kode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samlet-flow-visualisering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Samlet Flow Visualisering
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Værktøjer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-bluetooth-recon-penetration-projekt" class="md-nav__link">
+    <span class="md-ellipsis">
+      CI/CD Bluetooth Recon Penetration Projekt
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-python-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminal Python Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#config-jenkins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Config Jenkins
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-recon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Recon
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-mac-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Mac Found
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-enum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Enum
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pipeline-sucess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pipeline Sucess
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bettercap-python-kode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bettercap Python Kode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jenkins-groovy-kode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jenkins Groovy Kode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#samlet-flow-visualisering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Samlet Flow Visualisering
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Projekt</h1>
+
+<h2 id="cicd-bluetooth-recon-penetration-projekt">CI/CD Bluetooth Recon Penetration Projekt</h2>
+<p><strong>OBS:</strong> Koden og lidt forklaring til koden kan findes i bunden af siden.  </p>
+<h2 id="terminal-python-script">Terminal Python Script</h2>
+<p><img alt="Run Python Script" src="../images/TerminalPython.png" /><br />
+Efter at lave skriptet med mange forsøg for at få det hele til at fungere specielt med en regular expression,<br />
+kan scriptet starte Bettercap og en ble recon for a kigge efter devices og deres mac addresse samt signal styrken og hvilken form for enhed det er.
+Som set på billedet over så kan jeg se en masse apple produkter (højst sansyneligt iphones) der efter vil den liste dem alle ud som den har opsnappet<br />
+og så vælge den med den stærkeste signal styrke da det er højest success at enumerate til som den så vil enumerate til og derefter poste hvad information den får ved at "connect" til den.<br />
+Det der er vigtigt at forstå er at brugeren på den device som den connecter til VIL IKKE få at vide at de er blevet enumerated da det som den gør er at spørge efter dens GATT profil (Generic Attribute Table), som er<br />
+hvor den basically spørger om ALT som den device har til rådighed. Derefter vil vi disconnect for ikke at vække noget suspicon og så får vi en masse information som KAN blive bruge til exploitations hvis man er en<br />
+trusselaktør, f.eks. denne telefon som vi connecter til (min mors telefon som jeg fik lov til at bruge til min fremvisning) har WRITE og NOTIFY og READ properties som tillader os at gøre nogen ting gennem bettercap som man kan passe på med, da vi kan write og notify til "Apple Notification Center Service" hvor vi kan sende falske notifikationer måske endda med harmlig kode hvis de trykker på notifikationen, som kan blive brugt med<br />
+apps til at lave phishing attacks eller andet. Derudover med mac addresserne hvis en f.eks er ved at pair med en anden device kan vi lave en MITM attack. Derved at at samle disse mac addresser meget vigtigt. I mit projekt har jeg holdt mig til mere at lære hvordan man kan bruge bettercap med CI/CD så jeg har ikke haft tid til at lære hvordan jeg kunne lave en MITM attack men mere at det er muligt.   </p>
+<h2 id="config-jenkins">Config Jenkins</h2>
+<p><img alt="Jenkins Config" src="../images/PipelineScript.png" /><br />
+Efter at en et python script der virker sætter vi op en jenkins pipeline og configurer det med et CI/CD script som bruger stages til at gøre ting i forskellige rækkefølger.<br />
+I mit projekt har jeg sat op 2 stages for at fremvise hvordan det fungerer hvor at vi har et stage som kører koden og bruger den information som scriptet giver, og selv inde i dette script kan vi køre kode som gør at stagen kan køre igen og igen indtil vi får hvad vi leder efter og gemmer den information som vi vil bruge hvis vi havde flere scripts til exploits vi kunne bruge den device vi har fundet til at teste for en masse kendte exploits. Og i anden stage confirmer vi at den device vi har sagt er god til at teste for exploits er gemt til fremtidig brug, dette ville betyde mere i en test suite environment for et firma som gerne ville pent teste deres devices eller hobby cybersikkerhed arbejdere som er intereseret i at teste deres egne devices. (Bettercap can bruge både bluetooth og wifi og mere).</p>
+<h2 id="pipeline-recon">Pipeline Recon</h2>
+<p><img alt="Pipeline Recon" src="../images/PipelineRecon.png" /><br />
+Efter at sætte op vores jenkins script kører vi builded hvor den vil først kigge om vi har en eksisterende mac addresse vi vil bruge for at skippe denne stage, men da vi ikke har vil den starte python scriptet med at søge efter devices som set på billedet over.</p>
+<h2 id="pipeline-mac-found">Pipeline Mac Found</h2>
+<p><img alt="Mac Found" src="../images/PipelineMacFound.png" /><br />
+I billedet over opfanger den så de mac addresser som vi leder efter og den fanger derved alle og derefter vælger den med den stærkeste styrke.</p>
+<h2 id="pipeline-enum">Pipeline Enum</h2>
+<p><img alt="PipelineEnum" src="../images/PipelineEnum.png" /><br />
+<img alt="Pipeline Enum Succ" src="../images/PipelineEnumSucc.png" /><br />
+Derefter at enumarate og vi får success ser vi det samme som i python scriptet som er en god til at vi kan se at scriptet fungere i vores ci/cd pipeline</p>
+<h2 id="pipeline-sucess">Pipeline Sucess</h2>
+<p><img alt="Pipeline Success" src="../images/PipelineSucess.png" /><br />
+Derefter vil den give os et input requirement i vores pipeline script til at spørge om vi er sikker på at vi vil bruge denne device, hvis ja vil den blive gemt hvis ikke vil den prøve at kører scriptet igen for at fange en anden device ellers kan vi også bare abandon builded, i dette tilfælde siger vi ja hvor den så slutter det første stage og starter den anden stage som bare printer ud den mac addresse som vi har sagt er vores som beviser at vi har gemt og kan bruge den til flere exploitive scripts og forsøg helle i en CI/CD pipeline environment for pent testing.</p>
+<h2 id="bettercap-python-kode">Bettercap Python Kode</h2>
+<p><img alt="Bettercap Python code 1/2" src="../images/Bettercap1.png" /><br />
+<img alt="Bettercap Python code 2/2" src="../images/Bettercap2.png" /><br />
+<a href="https://github.com/Efily/E25-Projekt/blob/main/code/bettercap.py">Github Repo link til koden</a><br />
+🔹pexpect bruges til at starte og styre eksterne programmer (som fx bettercap) automatisk som om du selv skrev i terminalen.<br />
+🔹re er til regulære udtryk, så vi kan søge efter bestemte tekstmønstre, f.eks. MAC-adresser og signalstyrker.<br />
+🔹time bruges bare til at lave pauser (sleep), så vi giver tid til, at programmer når at levere output.  </p>
+<p>Funktion: parse_bettercap_output(output)<br />
+🔹Denne funktion tager tekst-output fra bettercap og forsøger at finde MAC-adresser og deres dBm (signalstyrke).<br />
+🔹Den printer først outputtet, så vi kan se, hvad der faktisk bliver forsøgt parset.<br />
+Derefter defineres en regex der leder efter:<br />
+🔹En MAC-adresse (f.eks. AA:BB:CC:DD:EE:FF)<br />
+🔹Noget "løst tekst"<br />
+🔹En dBm-værdi (f.eks. -65 dBm)<br />
+For hvert match:<br />
+🔹MAC-adressen og dBm signalstyrken hives ud.<br />
+🔹dBm-værdien konverteres fra tekst til et heltal (fordi vi vil kunne sammenligne dem numerisk).<br />
+🔹Alle fundne enheder gemmes i en liste som (mac, dBm).<br />
+Til sidst vælges den MAC med stærkest signal (tættest på 0), dvs. højeste dBm-værdi. </p>
+<p>Funktion: read_all_output(child)<br />
+🔹Denne funktion forsøger at læse alt output fra bettercap processen.<br />
+🔹Den bliver ved at læse små bidder indtil der ikke kommer mere output.<br />
+🔹Hvis der sker timeout eller processens output lukker (EOF), så stopper den og returnerer det samlede output.  </p>
+<p>Funktion: start_bettercap()<br />
+🔹Starter en ny bettercap-proces som root (sudo bettercap) med pexpect.<br />
+🔹Venter 3 sekunder på at programmet starter op.<br />
+🔹Sender kommandoen ble.recon on, hvilket starter scanning af Bluetooth Low Energy (BLE) enheder.<br />
+🔹Venter 20 sekunder for at samle data.<br />
+🔹Bruger read_all_output til at hive alt output fra processen.<br />
+Hvis der blev fundet noget:<br />
+🔹Parser outputtet med parse_bettercap_output.<br />
+🔹Hvis der blev fundet en stærk MAC-adresse:<br />
+🔹Kører en ble.enum {MAC} kommando for at hente flere detaljer om den specifikke enhed.<br />
+🔹Venter igen 20 sekunder og læser alt nyt output.<br />
+Hvis der trykkes Ctrl+C (KeyboardInterrupt), så sender den exit til bettercap og lukker processen pænt.<br />
+🔹Ved fejl fanges det og printes.<br />
+🔹Når scriptet er færdigt, fortæller det om der blev fundet en MAC-adresse eller ej.  </p>
+<h2 id="jenkins-groovy-kode">Jenkins Groovy Kode</h2>
+<p><img alt="Jenkins Groovy code 1/2" src="../images/Jenkins1.png" /><br />
+<img alt="Jenkins Groovy code 2/2" src="../images/Jenkins2.png" /><br />
+<a href="https://github.com/Efily/E25-Projekt/blob/main/code/jenkins.groovy">Github Repo link til koden</a><br />
+pipeline beskriver hele Jenkins job'et.<br />
+🔹agent any betyder, at den kan køre på hvilken som helst tilgængelig agent (node).<br />
+🔹stages indeholder trinnene for hvad der skal ske.<br />
+🔹post beskriver hvad der altid skal gøres efter builden (her: gemme artefakter).  </p>
+<p>Stage: 'Execute Python Script'<br />
+🔹ansiColor('xterm') bruges for at farverne i Jenkins Console Output bliver pæne.<br />
+🔹script { ... } gør, at man kan skrive almindelig Groovy kode.<br />
+Inde i script:<br />
+🔹Starter med at sætte to boolean flags: confirmed og reuseMac, som bruges til styring af flowet.<br />
+🔹Tjek for eksisterende MAC adresse:<br />
+🔹Ser om mac_address.txt filen findes og har indhold.<br />
+🔹Hvis ja, spørger brugeren via Jenkins GUI om de vil genbruge den eksisterende MAC adresse.<br />
+🔹Hvis brugeren siger ja (REUSE bliver true), sætter vi confirmed = true, så vi springer over at køre scriptet igen.<br />
+Hvis ikke bekræftet: kør en loop:<br />
+🔹Printer besked om at Python script køres.<br />
+🔹Kører Python scriptet (bettercap.py) og gemmer alt output i script_output.txt.<br />
+🔹Trækker sidste linje ud fra script_output.txt (forventer det er MAC-adressen) og gemmer i mac_address.txt.<br />
+🔹Læser den nye MAC-adresse og viser den i konsollen.<br />
+🔹Spørger brugeren igen via input i GUI, om den fundne MAC-adresse er godkendt.<br />
+🔹Hvis ikke godkendt (CONFIRM == false), så kører scriptet forfra i loopen.<br />
+🔹Dette loop fortsætter indtil brugeren accepterer en MAC-adresse.  </p>
+<p>Stage: 'Read and Print MAC Address'<br />
+🔹Simpelt trin.<br />
+🔹Læser mac_address.txt igen.<br />
+🔹Hvis filen indeholder noget: printer MAC-adressen.<br />
+🔹Hvis filen er tom: printer besked om det.  </p>
+<p>Post: always<br />
+🔹Efter alle stages (uanset om det fejler eller lykkes), arkiveres mac_address.txt som en artefakt.<br />
+🔹Så kan man hente filen senere fra Jenkins UI.  </p>
+<h2 id="samlet-flow-visualisering">Samlet Flow Visualisering</h2>
+<p>Start pipeline<br />
+    |<br />
+    v<br />
+Tjek om der findes en MAC-adresse fra før<br />
+    |<br />
+    +--&gt; Ja: Spørg om vi vil genbruge den<br />
+    |<br />
+    v<br />
+Hvis ikke genbruge -&gt; Loop:<br />
+  🔹 Kør Python script<br />
+  🔹 Gem ny MAC<br />
+  🔹 Spørg om MAC er ok<br />
+  🔹 Hvis nej, gentag<br />
+  🔹 Hvis ja, fortsæt<br />
+    |<br />
+    v<br />
+Læs og print MAC-adresse<br />
+    |<br />
+    v<br />
+Arkiver mac_address.txt  </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "toc.inline"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
